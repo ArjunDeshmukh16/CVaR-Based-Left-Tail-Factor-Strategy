@@ -1,0 +1,197 @@
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: TAIL SCORE - LONG-SHORT
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.614
+Model:                            OLS   Adj. R-squared:                  0.595
+Method:                 Least Squares   F-statistic:                     32.44
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           1.16e-19
+Time:                        20:08:02   Log-Likelihood:                 163.50
+No. Observations:                 108   AIC:                            -315.0
+Df Residuals:                     102   BIC:                            -298.9
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0034      0.006      0.605      0.546      -0.008       0.014
+Mkt-RF        -0.5497      0.130     -4.221      0.000      -0.808      -0.291
+SMB           -0.9053      0.243     -3.719      0.000      -1.388      -0.423
+HML            0.6227      0.154      4.048      0.000       0.318       0.928
+RMW            1.3438      0.287      4.680      0.000       0.774       1.913
+MOM            0.4967      0.165      3.002      0.003       0.169       0.825
+==============================================================================
+Omnibus:                       38.809   Durbin-Watson:                   1.839
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.247
+Skew:                          -1.349   Prob(JB):                     2.08e-21
+Kurtosis:                       6.726   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: VOL - LONG-SHORT
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.589
+Model:                            OLS   Adj. R-squared:                  0.569
+Method:                 Least Squares   F-statistic:                     29.23
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           2.65e-18
+Time:                        20:08:02   Log-Likelihood:                 157.54
+No. Observations:                 108   AIC:                            -303.1
+Df Residuals:                     102   BIC:                            -287.0
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0019      0.006      0.328      0.743      -0.010       0.014
+Mkt-RF        -0.5398      0.138     -3.923      0.000      -0.813      -0.267
+SMB           -0.9594      0.257     -3.730      0.000      -1.470      -0.449
+HML            0.5827      0.163      3.585      0.001       0.260       0.905
+RMW            1.4851      0.303      4.895      0.000       0.883       2.087
+MOM            0.3755      0.175      2.147      0.034       0.029       0.722
+==============================================================================
+Omnibus:                       53.125   Durbin-Watson:                   1.807
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              210.510
+Skew:                          -1.650   Prob(JB):                     1.94e-46
+Kurtosis:                       8.991   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: TAIL SCORE - LONG-ONLY
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.916
+Model:                            OLS   Adj. R-squared:                  0.912
+Method:                 Least Squares   F-statistic:                     222.8
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           3.17e-53
+Time:                        20:08:02   Log-Likelihood:                 329.91
+No. Observations:                 108   AIC:                            -647.8
+Df Residuals:                     102   BIC:                            -631.7
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0013      0.001     -1.065      0.289      -0.004       0.001
+Mkt-RF         0.6958      0.028     24.944      0.000       0.640       0.751
+SMB            0.3934      0.052      7.546      0.000       0.290       0.497
+HML            0.2247      0.033      6.820      0.000       0.159       0.290
+RMW            0.2084      0.062      3.388      0.001       0.086       0.330
+MOM            0.1364      0.035      3.849      0.000       0.066       0.207
+==============================================================================
+Omnibus:                        1.749   Durbin-Watson:                   2.199
+Prob(Omnibus):                  0.417   Jarque-Bera (JB):                1.690
+Skew:                          -0.299   Prob(JB):                        0.430
+Kurtosis:                       2.869   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: VOL - LONG-ONLY
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.910
+Model:                            OLS   Adj. R-squared:                  0.906
+Method:                 Least Squares   F-statistic:                     207.1
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           9.43e-52
+Time:                        20:08:02   Log-Likelihood:                 325.27
+No. Observations:                 108   AIC:                            -638.5
+Df Residuals:                     102   BIC:                            -622.4
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0019      0.001     -1.545      0.125      -0.004       0.001
+Mkt-RF         0.7025      0.029     24.124      0.000       0.645       0.760
+SMB            0.3567      0.054      6.555      0.000       0.249       0.465
+HML            0.2306      0.034      6.706      0.000       0.162       0.299
+RMW            0.2093      0.064      3.260      0.002       0.082       0.337
+MOM            0.1070      0.037      2.891      0.005       0.034       0.180
+==============================================================================
+Omnibus:                        1.541   Durbin-Watson:                   2.124
+Prob(Omnibus):                  0.463   Jarque-Bera (JB):                1.583
+Skew:                          -0.233   Prob(JB):                        0.453
+Kurtosis:                       2.633   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: TAIL SCORE - SHORT-ONLY
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.788
+Model:                            OLS   Adj. R-squared:                  0.777
+Method:                 Least Squares   F-statistic:                     75.60
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           9.90e-33
+Time:                        20:08:02   Log-Likelihood:                 173.26
+No. Observations:                 108   AIC:                            -334.5
+Df Residuals:                     102   BIC:                            -318.4
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0031      0.005      0.606      0.546      -0.007       0.013
+Mkt-RF        -1.2469      0.119    -10.480      0.000      -1.483      -1.011
+SMB           -1.2887      0.222     -5.796      0.000      -1.730      -0.848
+HML            0.3995      0.141      2.843      0.005       0.121       0.678
+RMW            1.1433      0.262      4.358      0.000       0.623       1.664
+MOM            0.3614      0.151      2.390      0.019       0.062       0.661
+==============================================================================
+Omnibus:                       31.166   Durbin-Watson:                   1.817
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               62.524
+Skew:                          -1.160   Prob(JB):                     2.65e-14
+Kurtosis:                       5.918   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+==============================================================================
+FAMA-FRENCH 5-FACTOR REGRESSION: VOL - SHORT-ONLY
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     monthly_excess_ret   R-squared:                       0.767
+Model:                            OLS   Adj. R-squared:                  0.756
+Method:                 Least Squares   F-statistic:                     67.19
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           1.02e-30
+Time:                        20:08:02   Log-Likelihood:                 167.23
+No. Observations:                 108   AIC:                            -322.5
+Df Residuals:                     102   BIC:                            -306.4
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0023      0.005      0.427      0.670      -0.008       0.013
+Mkt-RF        -1.2437      0.126     -9.887      0.000      -1.493      -0.994
+SMB           -1.3062      0.235     -5.555      0.000      -1.773      -0.840
+HML            0.3536      0.149      2.379      0.019       0.059       0.648
+RMW            1.2837      0.277      4.628      0.000       0.733       1.834
+MOM            0.2696      0.160      1.686      0.095      -0.047       0.587
+==============================================================================
+Omnibus:                       47.531   Durbin-Watson:                   1.781
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              164.673
+Skew:                          -1.505   Prob(JB):                     1.74e-36
+Kurtosis:                       8.248   Cond. No.                         64.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

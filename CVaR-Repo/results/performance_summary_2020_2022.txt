@@ -1,0 +1,95 @@
+=============================================
+Performance Summary:
+=============================================
+Factor:                tail_score
+Strategy:              long_short
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   -0.25%
+Annualized return:     -3.03%
+Monthly stdev:         11.17%
+Annualized stdev:      38.70%
+T-statistic:           -0.14
+Sharpe ratio:          -0.08
+Cumulative return:     -28.10%
+Max drawdown:          -74.30%
+
+=============================================
+Performance Summary:
+=============================================
+Factor:                vol
+Strategy:              long_short
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   -0.53%
+Annualized return:     -6.35%
+Monthly stdev:         11.80%
+Annualized stdev:      40.86%
+T-statistic:           -0.27
+Sharpe ratio:          -0.16
+Cumulative return:     -37.21%
+Max drawdown:          -76.75%
+
+=============================================
+Performance Summary:
+=============================================
+Factor:                tail_score
+Strategy:              long_only
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   0.62%
+Annualized return:     7.46%
+Monthly stdev:         5.05%
+Annualized stdev:      17.49%
+T-statistic:           0.74
+Sharpe ratio:          0.43
+Cumulative return:     19.38%
+Max drawdown:          -24.37%
+
+=============================================
+Performance Summary:
+=============================================
+Factor:                vol
+Strategy:              long_only
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   0.55%
+Annualized return:     6.61%
+Monthly stdev:         5.10%
+Annualized stdev:      17.67%
+T-statistic:           0.65
+Sharpe ratio:          0.37
+Cumulative return:     16.26%
+Max drawdown:          -24.56%
+
+=============================================
+Performance Summary:
+=============================================
+Factor:                tail_score
+Strategy:              short_only
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   -0.87%
+Annualized return:     -10.49%
+Monthly stdev:         13.60%
+Annualized stdev:      47.10%
+T-statistic:           -0.39
+Sharpe ratio:          -0.22
+Cumulative return:     -49.24%
+Max drawdown:          -85.23%
+
+=============================================
+Performance Summary:
+=============================================
+Factor:                vol
+Strategy:              short_only
+Sample period:         2020-01 to 2022-12
+Number of months:      36
+Mean monthly return:   -1.08%
+Annualized return:     -12.96%
+Monthly stdev:         14.00%
+Annualized stdev:      48.48%
+T-statistic:           -0.46
+Sharpe ratio:          -0.27
+Cumulative return:     -54.19%
+Max drawdown:          -86.31%
