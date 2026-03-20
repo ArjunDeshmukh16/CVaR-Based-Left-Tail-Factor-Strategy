@@ -1,8 +1,15 @@
 # Is Tail Risk a New Factor?
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://cvar-tail-risk-factor.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![USC Quant Research](https://img.shields.io/badge/USC-Quant_Research-CC0000?style=for-the-badge)](https://usc.edu)
+[![Period](https://img.shields.io/badge/Period-Aug_–_Nov_2025-138808?style=for-the-badge)](https://github.com/ArjunDeshmukh16)
+
 ### CVaR-Based Left-Tail Factor Strategy with Robustness and Bias Control
 
 Testing whether a CVaR-based tail-risk factor offers returns beyond the low-volatility premium.
+
+> **Key Results:** 15-year CRSP backtest · Long-only: 9.57% ann. return, 0.70 Sharpe · Beta-neutralized long-short with Fama-MacBeth cross-sectional validation
 
 ---
 
@@ -143,3 +150,5 @@ streamlit run streamlit_app.py
 
 ---
 
+
+**→ [View Portfolio](https://arjundeshmukh16.github.io) · [LinkedIn](https://linkedin.com/in/arjun-deshmukh1609) · [GitHub](https://github.com/ArjunDeshmukh16)**
